@@ -1,0 +1,89 @@
+   Boolean resp = false;
+            MySqlConnection CN = new MySqlConnection(Con);
+            MySqlCommand Com = CN.CreateCommand();
+
+            MySqlCommand command = new MySqlCommand("INSERT INTO usuarios (nome,senha,email)"+
+	"VALUES('" + cad.Login1 + "','" + cad.Senha + "','" + cad.Email1 + "')");
+	
+	try//botão cadastrar
+            {
+                vefcadastroDAO vefBD = new vefcadastroDAO();//instanciar a classe
+
+                vefcadastro vefcadastroReg = new vefcadastro(txtLogin.Text, txtSenha.Text);//instanciar a classe
+
+                if (loginBD.logar(loginReg))//se o resultado do método chamado for true
+                {
+                    Filmes abre = new Filmes();//ABRE O FORMULARIO FORM1
+
+                    this.Hide();//fecha a tela ativa
+                    if (abre == null)//se a tela de menu já não estiver aberta
+                    {
+                        abre = new Filmes();
+                        this.Hide();
+                    }
+                    else//senão abre a tela Menu
+                    {
+                        abre.Show();
+                        this.Hide();
+                    }
+                    abre.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Login, Senha e Email Inexistentes!");
+                    txtLogin.Focus();
+                }
+            }
+            catch (Exception c)
+            {
+                MessageBox.Show(c.ToString());
+            }
+			
+			            abrefoto.Title = "Selecione a foto";
+            //Diretorio
+            //abrefoto.InitialDirectory = "C:\\Industrial\\2019\\2DSNOITE\\PC\\2019\\combanco\\EscolaPaulaSouza\\EscolaPaulaSouza\\Resources";
+            abrefoto.InitialDirectory = "C:\\Users\\rmfar\\Desktop\\INDUSTRIAL_2019\\ETIM_INFORMÁTICA\\PC_CSHARP\\EscolaPaulaSouza\\EscolaPaulaSouza\\Resources";
+
+            abrefoto.Filter = "JPEG|*.JPG|PNG|*.png";
+            abrefoto.ShowDialog();
+
+            fotoi.Image = Image.FromFile(abrefoto.FileName);
+            txtCaminho.Text = abrefoto.FileName.Replace(@"\", @"\\");
+			
+			
+			
+			Com.CommandText = "select nome, senha from usuario WHERE"
+                           + " email='" + cad.Email1 + "'"
+                           + "'";
+						   
+						   
+						   
+						   
+						   
+			
+			" AND "
+			
+			MySqlConnection CN = new MySqlConnection(Con);
+                    MySqlCommand Com = CN.CreateCommand();
+                    Com.CommandText = "INSERT INTO Alunos(nome,email,idade,foto) " +
+                "Values(?nome,?email,?idade, ?foto)";
+
+                    Com.Parameters.AddWithValue("?nome", cada.usuario);
+                    Com.Parameters.AddWithValue("?email", cada.email);
+                    Com.Parameters.AddWithValue("?idade", cada.senha);
+                    Com.Parameters.AddWithValue("?foto", cada.foto);
+			
+			
+			MySqlConnection CN = new MySqlConnection(Con);
+                    MySqlCommand Com = CN.CreateCommand();
+                    Com.CommandText = "INSERT INTO Alunos(nome,email,idade,foto) " +
+                "Values(?nome,?email,?idade, ?foto)";
+
+                    Com.Parameters.AddWithValue("?nome", cada.usuario);
+                    Com.Parameters.AddWithValue("?email", cada.email);
+                    Com.Parameters.AddWithValue("?idade", cada.senha);
+                    Com.Parameters.AddWithValue("?foto", cada.foto);
+
+
+                    MySqlCommand command = new MySqlCommand("INSERT INTO usuarios (nome,senha,email)" +
+            "VALUES('" + cada.usuario + "','" + cada.senha + "','" + cada.email + "')");
