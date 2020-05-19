@@ -40,3 +40,18 @@ E:\2020\1o bi\Computer Programing\Projeto Decadencia\projeto\WindowsFormsApplica
 E:\2020\1o bi\Computer Programing\Projeto Decadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
 E:\2020\1o bi\Computer Programing\Projeto Decadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MySql.Data.dll
 E:\2020\1o bi\Computer Programing\Projeto Decadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Filmes.resources
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FrmCadastro.resources
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FrmLogin.resources
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Victor\Desktop\Projeto Decadencia\projetodecadencia\projeto\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

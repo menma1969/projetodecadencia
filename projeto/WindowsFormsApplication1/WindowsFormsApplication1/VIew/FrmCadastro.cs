@@ -36,6 +36,7 @@ namespace WindowsFormsApplication1
         {
            FrmLogin abre = new FrmLogin();
             abre.ShowDialog();
+            this.Close();
         } 
         cadastrar cada = new cadastrar();
 

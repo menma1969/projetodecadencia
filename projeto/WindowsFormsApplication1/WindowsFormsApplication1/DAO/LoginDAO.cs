@@ -16,7 +16,7 @@ namespace WindowsFormsApplication1
         public LoginDao()
         {
             //define string de conexao e cria a conexao
-            Con = "Persist Security Info=False;server=localhost;" +
+            Con = "Persist Security Info=True;server=localhost;" +
                             "database=filme;uid=root;pwd=";
         }
 

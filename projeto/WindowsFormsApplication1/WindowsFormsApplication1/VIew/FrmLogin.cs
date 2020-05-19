@@ -29,12 +29,12 @@ namespace WindowsFormsApplication1
 
                 if (loginBD.logar(loginReg))//se o resultado do método chamado for true
                 {
-                    Filmes abre = new Filmes();//ABRE O FORMULARIO FORM1
+                    Form1 abre = new Form1();//ABRE O FORMULARIO FORM1
 
                     this.Hide();//fecha a tela ativa
                     if (abre == null)//se a tela de menu já não estiver aberta
                     {
-                        abre = new Filmes();
+                        abre = new Form1();
                         this.Hide();
                     }
                     else//senão abre a tela Menu

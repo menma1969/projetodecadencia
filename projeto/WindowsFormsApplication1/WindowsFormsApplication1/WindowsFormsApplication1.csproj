@@ -56,8 +56,10 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAO\cadastrarDAO.cs" />
+    <Compile Include="caminhotxt\Text.cs" />
+    <Compile Include="DAO\cadastrarfilmesDAO.cs" />
     <Compile Include="DAO\vefcadastroDAO.cs" />
+    <Compile Include="Model\cadastrarfilmes .cs" />
     <Compile Include="Model\cadastrar.cs" />
     <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
