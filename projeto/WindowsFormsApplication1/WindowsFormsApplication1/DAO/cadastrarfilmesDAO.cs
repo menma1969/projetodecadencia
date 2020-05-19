@@ -32,14 +32,14 @@ namespace WindowsFormsApplication1.DAO
 
 
 
-            Com.CommandText = "INSERT INTO filmes(nome, imagem, genero, diretor, sinopse, faixa_etaria, duracao, anolanca) Values(?nome,?imagem,?genero,?diretor,?sinopse,?faixa_etaria,?duracao,?anolanca)";
+            Com.CommandText = "INSERT INTO filmes(nome, imagem, genero, diretor, sinopse, faixaetaria, duracao, anolanca) Values(?nome,?imagem,?genero,?diretor,?sinopse,?faixaetaria,?duracao,?anolanca)";
 
             Com.Parameters.AddWithValue("?nome", cadastrarfilmes._nome);
             Com.Parameters.AddWithValue("?imagem", cadastrarfilmes._imagem);
             Com.Parameters.AddWithValue("?genero", cadastrarfilmes._genero);
             Com.Parameters.AddWithValue("?diretor", cadastrarfilmes._diretor);
             Com.Parameters.AddWithValue("?sinopse", cadastrarfilmes._sinopse);
-            Com.Parameters.AddWithValue("?faixa_etaria", cadastrarfilmes._faixa_etaria);
+            Com.Parameters.AddWithValue("?faixaetaria", cadastrarfilmes._faixaetaria);
             Com.Parameters.AddWithValue("?duracao", cadastrarfilmes._duracao);
             Com.Parameters.AddWithValue("?anolanca", cadastrarfilmes._ano);
 
@@ -100,7 +100,7 @@ namespace WindowsFormsApplication1.DAO
             MySqlCommand cmd = CN.CreateCommand();
             MySqlDataReader dr;
 
-            cmd.CommandText = "select nome, imagem, genero, diretor, sinopse, faixa_etaria, duracao, anolanca from alunos";
+            cmd.CommandText = "select nome, imagem, genero, diretor, sinopse, faixaetaria, duracao, anolanca from alunos";
             try
             {
                 CN.Open();
@@ -116,7 +116,7 @@ namespace WindowsFormsApplication1.DAO
                     cadfi.Imagem = dr.GetString(dr.GetOrdinal("imagem"));
                     cadfi.Diretor = dr.GetString(dr.GetOrdinal("diretor"));
                     cadfi.Sinopse = dr.GetString(dr.GetOrdinal("sinopse"));
-                    cadfi.Faixa_etaria = dr.GetString(dr.GetOrdinal("faixa_etaria"));
+                    cadfi.Faixaetaria = dr.GetString(dr.GetOrdinal("faixaetaria"));
                     cadfi.Duracao = dr.GetString(dr.GetOrdinal("duracao"));
                     cadfi.Ano = dr.GetString(dr.GetOrdinal("anolanca"));
                     cadf.Add(cadfi);

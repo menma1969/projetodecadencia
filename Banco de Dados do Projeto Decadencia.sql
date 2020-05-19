@@ -15,6 +15,6 @@ imagem varchar(50) not null,
 genero varchar (20) not null,
 diretor varchar (50) not null,
 sinopse varchar (50) not null,
-faixa_etaria varchar(2) not null,
+faixaetaria varchar(20) not null,
 duracao varchar(20) not null,
 anolanca varchar(20) not null);

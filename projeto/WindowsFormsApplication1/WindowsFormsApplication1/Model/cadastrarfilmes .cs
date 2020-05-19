@@ -13,7 +13,7 @@ namespace WindowsFormsApplication1.Model
         public String _genero;
         public String _diretor;
         public String _sinopse;
-        public String _faixa_etaria;
+        public String _faixaetaria;
         public String _duracao;
         public String _ano;
 
@@ -78,15 +78,15 @@ namespace WindowsFormsApplication1.Model
                 _sinopse = value;
             }
         }
-        public string Faixa_etaria
+        public string Faixaetaria
         {
             get
             {
-                return _faixa_etaria;
+                return _faixaetaria;
             }
             set
             {
-                _faixa_etaria = value;
+                _faixaetaria = value;
             }
         }
         public string Duracao
@@ -118,13 +118,15 @@ namespace WindowsFormsApplication1.Model
 
 
         //construtor do objeto com valor de parametro nome, endereco, idade
-        public cadastrarfilmes(string nome, string imagem, string genero, string diretor, string sinopse, string faixa_etaria, string duracao, string ano)
+        public cadastrarfilmes(string nome, string imagem, string genero, string diretor, string sinopse, string faixaetaria, string duracao, string ano)
         {
             this.Nome = nome;
             this.Imagem= imagem;
             this.Genero = genero;
             this.Diretor = diretor;
             this.Sinopse = sinopse;
+            this.Faixaetaria = faixaetaria;
+            this.Duracao = duracao;
             this.Ano = ano;
         }
 
