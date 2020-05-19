@@ -8,6 +8,7 @@ namespace WindowsFormsApplication1.Model
 {
     class cadastrarfilmes
     {
+        public String _codigo ;
         public String _nome  ;
         public String _imagem;
         public String _genero;
@@ -20,6 +21,17 @@ namespace WindowsFormsApplication1.Model
 
         //getters e setters automaticamente
         //botão direito refatorar
+        public string Codigo
+        {
+            get
+            {
+                return _codigo;
+            }
+            set
+            {
+                _codigo = value;
+            }
+        }
         public string Nome
         {
             get
@@ -118,8 +130,9 @@ namespace WindowsFormsApplication1.Model
 
 
         //construtor do objeto com valor de parametro nome, endereco, idade
-        public cadastrarfilmes(string nome, string imagem, string genero, string diretor, string sinopse, string faixaetaria, string duracao, string ano)
+        public cadastrarfilmes(string codigo, string nome, string imagem, string genero, string diretor, string sinopse, string faixaetaria, string duracao, string ano)
         {
+            this.Codigo = codigo;
             this.Nome = nome;
             this.Imagem= imagem;
             this.Genero = genero;

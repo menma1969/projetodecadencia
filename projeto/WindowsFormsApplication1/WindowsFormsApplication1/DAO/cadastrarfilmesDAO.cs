@@ -102,7 +102,7 @@ namespace WindowsFormsApplication1.DAO
             MySqlCommand cmd = CN.CreateCommand();
             MySqlDataReader dr;
 
-            cmd.CommandText = "select nome, imagem, genero, diretor, sinopse, faixaetaria, duracao, anolanca from alunos";
+            cmd.CommandText = "select codigofilme, nome, imagem, genero, diretor, sinopse, faixaetaria, duracao, anolanca from alunos";
             try
             {
                 CN.Open();
@@ -114,8 +114,10 @@ namespace WindowsFormsApplication1.DAO
                 while (dr.Read())
                 {
                     cadastrarfilmes cadfi = new cadastrarfilmes();
+                    cadfi.Codigo = dr.GetString(dr.GetOrdinal("codigofilme"));
                     cadfi.Nome = dr.GetString(dr.GetOrdinal("nome"));
                     cadfi.Imagem = dr.GetString(dr.GetOrdinal("imagem"));
+                    cadfi.Genero = dr.GetString(dr.GetOrdinal("genero"));
                     cadfi.Diretor = dr.GetString(dr.GetOrdinal("diretor"));
                     cadfi.Sinopse = dr.GetString(dr.GetOrdinal("sinopse"));
                     cadfi.Faixaetaria = dr.GetString(dr.GetOrdinal("faixaetaria"));
