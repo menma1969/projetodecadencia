@@ -114,7 +114,6 @@ namespace WindowsFormsApplication1.DAO
                 while (dr.Read())
                 {
                     cadastrarfilmes cadfi = new cadastrarfilmes();
-                    cadfi.Codigo = dr.GetString(dr.GetOrdinal("codigofilme"));
                     cadfi.Nome = dr.GetString(dr.GetOrdinal("nome"));
                     cadfi.Imagem = dr.GetString(dr.GetOrdinal("imagem"));
                     cadfi.Genero = dr.GetString(dr.GetOrdinal("genero"));
