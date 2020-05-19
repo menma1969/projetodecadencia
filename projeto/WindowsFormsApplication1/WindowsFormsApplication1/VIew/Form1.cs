@@ -40,7 +40,7 @@ namespace WindowsFormsApplication1
             try
             {
                 cadastrarfilmesDAO filmeDB= new cadastrarfilmesDAO();
-                cadastrarfilmes cadf = new cadastrarfilmes(titulotxt.Text, foto.Text, generotxt.Text, diretortxt.Text,
+                cadastrarfilmes cadf = new cadastrarfilmes(titulotxt.Text, txtcaminho.Text, generotxt.Text, diretortxt.Text,
                     sinopsetxt.Text, faixaetariatxt.Text, duracaotxt.Text, anotxt.Text);
                 filmeDB.RegistrarFilme(cadf);//chamada do método
                 MessageBox.Show("Registro salvo com sucesso.");

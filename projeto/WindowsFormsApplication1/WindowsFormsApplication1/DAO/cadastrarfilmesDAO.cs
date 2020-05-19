@@ -96,6 +96,8 @@ namespace WindowsFormsApplication1.DAO
         }
         public List<cadastrarfilmes> Listarfilmes()
         {
+            Con = "Persist Security Info=True;server=localhost;" +
+                            "database=filme;uid=root;pwd="; 
             MySqlConnection CN = new MySqlConnection(Con);
             MySqlCommand cmd = CN.CreateCommand();
             MySqlDataReader dr;
